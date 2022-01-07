@@ -1,0 +1,7 @@
+{
+    "productName": "Celular",
+    "qtyPerUnit": "11",
+    "unitInStock":5,
+    "discontinued": false,
+    "categoryId":2
+}

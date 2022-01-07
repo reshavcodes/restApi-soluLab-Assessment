@@ -1,0 +1,40 @@
+This REST api is built using express and mongoose framework using node JS backend.
+
+#Building the api
+
+Make sure you have Node JS installed in your system.
+
+_Clone the repository_
+_Open terminal in that project folder_
+_Run 'npm i', this will install all the dependencies_
+
+Before running the server make sure you have added your database credentials in the Products.js and the Category.js file inside the model folder.
+
+_Run 'npm start' to start the server_
+
+#Routing
+There are total of 5 routes in the api.
+
+
+1: "localhost:5000/products/readall": "To get all products",
+
+2:"localhost:5000/products/readall?category=<category_name>": "To get all products of a particular category",
+            
+"List of all categories: [electronics, fashion, home, sports, books, others]",
+
+
+
+3:"localhost:5000/products/read/<product_id>": "To get a product by id",
+
+
+4:"localhost:5000/products/create": "To create a product",
+
+
+5:"localhost:5000/products/delete?apikey=xyz": "To delete a product with api key",
+
+
+6:"localhost:5000/products/update/<product_id>": "To update a product with the product id",
+
+
+
+
